@@ -1,5 +1,5 @@
+//Q1. Write a program to replace a substring inside a string with other string ?
 import java.util.Scanner;
- import java.util.*;
 public class Ques_1_java {
     public static void main(String args[]){
             Scanner s=new Scanner(System.in);
