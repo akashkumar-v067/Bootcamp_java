@@ -5,3 +5,6 @@ public class Ques_15_mth {
 
     }
 }
+ class Mlth_rlock extends Thread{
+
+ }
