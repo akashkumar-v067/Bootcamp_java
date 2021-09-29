@@ -6,6 +6,7 @@ public class Ques_2_mth {
         Thread t2 = new Thread(new sleepEx());
          t1.start();
          t2.start();
+
         System.out.println("\nJoining after 1000"+ " milliseconds: \n");
          try {
             t2.join(100);

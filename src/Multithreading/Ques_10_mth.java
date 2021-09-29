@@ -11,6 +11,7 @@ public class Ques_10_mth {
         integer--;
     }
 
+
     public static void main(String[] args) throws InterruptedException {
         Thread t1 = new Thread(() -> {
             for (int i = 0; i < 20000; i++) {

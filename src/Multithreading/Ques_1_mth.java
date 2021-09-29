@@ -7,6 +7,7 @@ public class Ques_1_mth {
         Thread t1= new Thread(th1);
         t1.start();
         t2.start();
+
     }
 }
 class ex1_thread implements Runnable{

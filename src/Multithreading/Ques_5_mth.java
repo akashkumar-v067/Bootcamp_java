@@ -14,6 +14,8 @@ public class Ques_5_mth {
         System.out.println(Ex.isTerminated());//print false because Ex has a task to complete.
         System.out.println(Ex.isShutdown());//print true as shut down has been called
 
+
+
         try {
             Ex.awaitTermination(Long.MAX_VALUE, TimeUnit.NANOSECONDS);
         } catch (InterruptedException e) {

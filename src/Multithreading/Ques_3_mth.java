@@ -10,7 +10,7 @@ public class Ques_3_mth {
         thr_sh obj1 = new thr_sh();
         thr_sh obj2 = new thr_sh();
         executor.submit(obj1);
-        //executor.submit(obj2);
+        executor.submit(obj2);
         executor.shutdown();
     }
 }

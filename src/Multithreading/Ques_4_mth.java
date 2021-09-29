@@ -18,6 +18,7 @@ public class Ques_4_mth {
         // will give error
         // it is compulsory to halt ExecutorService in the end
 
+
       // Ex.shutdownNow();
         // shutdownNow wait for thread currently executing to be completed.
         // it will not accept thread in waiting queue.
