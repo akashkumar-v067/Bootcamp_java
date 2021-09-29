@@ -15,6 +15,7 @@ class ex1_thread implements Runnable{
     }
 }
 class ex2_thread extends Thread{
+    @Override
     public void run(){
         System.out.println("Thread created Using Thread class");
     }
