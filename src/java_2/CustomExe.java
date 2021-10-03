@@ -1,6 +1,6 @@
 package java_2;
 
-import java.util.Locale;
+
 
 public class CustomExe extends Exception{
     public CustomExe(String str){
@@ -9,7 +9,7 @@ public class CustomExe extends Exception{
 }
 class exe_test{
     public static void validate(String s) throws CustomExe{
-        if(s!="female"&&s!="f"){
+        if(s!="female"){
             throw new CustomExe("ONLY FEMALE CANDIDATE REQUIRED");
         }
         else{

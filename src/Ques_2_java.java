@@ -10,6 +10,9 @@ public class Ques_2_java {
     System.out.println("the duplicate word in string are: ");
         for(int i = 0; i < words.length; i++) {
             count = 1;
+           if(words[i]=="0"){
+               continue;
+           }
             for(int j = i+1; j < words.length; j++) {
                 if(words[i].equals(words[j])) {
                     count++;
