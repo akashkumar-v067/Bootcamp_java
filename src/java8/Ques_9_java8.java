@@ -8,6 +8,7 @@ public class Ques_9_java8 {
         List<Integer> list = new ArrayList<Integer>();
         for(int i=1; i<=20 ;i++){
          list.add(i);
+
         }
         list.stream()
                 .filter((i)->i%2==0)

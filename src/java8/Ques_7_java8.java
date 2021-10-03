@@ -9,6 +9,7 @@ public class Ques_7_java8 implements q6{
 
     @Override
     public String f2() {
+
         String str="default overridden";
         return str;
     }

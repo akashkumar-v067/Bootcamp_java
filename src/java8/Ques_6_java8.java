@@ -11,6 +11,7 @@ public class Ques_6_java8 implements q6{
 }
 
 interface q6{
+
     static String f1(){
         String str="static method of interface called";
         return str;

@@ -8,6 +8,7 @@ public class Ques_10_java8 {
     static int add(int i){
         sum=sum+i;
         return sum;
+
     }
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<Integer>();

@@ -8,6 +8,7 @@ public class Ques_5_java8 {
     }
 }
 class Employee{
+
     String Name;
     int Age;
     String City;

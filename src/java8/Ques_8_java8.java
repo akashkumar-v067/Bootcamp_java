@@ -20,6 +20,7 @@ interface q8_1{
        System.out.println("interface q8_1 show method content");
    }
 }
+
 interface q8_2{
     default void show(){
         System.out.println("interface q8_2 show method content");

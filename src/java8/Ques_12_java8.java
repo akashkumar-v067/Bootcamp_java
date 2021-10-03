@@ -22,5 +22,6 @@ public class Ques_12_java8 {
 
 
 
+
     }
 }
